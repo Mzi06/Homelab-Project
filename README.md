@@ -49,11 +49,15 @@ I'm CompTIA Security+ certified and building practical, hands-on skills to compl
 - Created test user accounts and assigned them to their respective OUs
 - Created Security Groups (IT-Admins, Sales-Team, HR-Team) for role-based access
 - Configured a Group Policy Object enforcing password complexity and minimum length on the IT OU
+  
+### 5. VLAN Segmentation
+- Created VLANs 10 (IT), 20 (Sales) and 30 (HR) on the Cisco Catalyst 3560
+- Assigned switch ports to each VLAN matching the AD OU structure
+- Configured a trunk port between the router and switch carrying all three VLANs
+- Implemented inter-VLAN routing using Router on a Stick with subinterfaces
+- Verified with successful pings across all three VLANs in Cisco Packet Tracer
 
 ## In Progress / Next Up
-
-- VLAN segmentation on the Cisco switch, tying network segmentation back to the AD department structure
-- Joining a client VM to the domain
 - Exploring SIEM tooling (e.g. Wazuh) for log monitoring and detection
 
 ## Troubleshooting Log
